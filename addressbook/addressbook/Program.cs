@@ -10,9 +10,13 @@ namespace addressbook
             ContactDetails createContacts = new ContactDetails();
             createContacts.Contacts();
 
-            Console.WriteLine("Add New Contacts Program");
-            AddNewContacts addNewCon = new AddNewContacts();
-            addNewCon.addNewContacts();
+            //Console.WriteLine("Add New Contacts Program");
+            //AddNewContacts addNewCon = new AddNewContacts();
+            //addNewCon.addNewContacts();
+
+            Console.WriteLine("Update Existing Contact Program");
+            UpdateExistingContact update = new UpdateExistingContact();
+            update.UpdateContact();
         }
     }
 }
