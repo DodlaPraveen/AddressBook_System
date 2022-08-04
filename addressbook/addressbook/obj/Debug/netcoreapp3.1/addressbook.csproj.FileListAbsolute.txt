@@ -1,0 +1,14 @@
+G:\LPF\Day9 Assignment\AddressBook_System\addressbook\addressbook\bin\Debug\netcoreapp3.1\addressbook.exe
+G:\LPF\Day9 Assignment\AddressBook_System\addressbook\addressbook\bin\Debug\netcoreapp3.1\addressbook.deps.json
+G:\LPF\Day9 Assignment\AddressBook_System\addressbook\addressbook\bin\Debug\netcoreapp3.1\addressbook.runtimeconfig.json
+G:\LPF\Day9 Assignment\AddressBook_System\addressbook\addressbook\bin\Debug\netcoreapp3.1\addressbook.runtimeconfig.dev.json
+G:\LPF\Day9 Assignment\AddressBook_System\addressbook\addressbook\bin\Debug\netcoreapp3.1\addressbook.dll
+G:\LPF\Day9 Assignment\AddressBook_System\addressbook\addressbook\bin\Debug\netcoreapp3.1\addressbook.pdb
+G:\LPF\Day9 Assignment\AddressBook_System\addressbook\addressbook\obj\Debug\netcoreapp3.1\addressbook.csproj.AssemblyReference.cache
+G:\LPF\Day9 Assignment\AddressBook_System\addressbook\addressbook\obj\Debug\netcoreapp3.1\addressbook.GeneratedMSBuildEditorConfig.editorconfig
+G:\LPF\Day9 Assignment\AddressBook_System\addressbook\addressbook\obj\Debug\netcoreapp3.1\addressbook.AssemblyInfoInputs.cache
+G:\LPF\Day9 Assignment\AddressBook_System\addressbook\addressbook\obj\Debug\netcoreapp3.1\addressbook.AssemblyInfo.cs
+G:\LPF\Day9 Assignment\AddressBook_System\addressbook\addressbook\obj\Debug\netcoreapp3.1\addressbook.csproj.CoreCompileInputs.cache
+G:\LPF\Day9 Assignment\AddressBook_System\addressbook\addressbook\obj\Debug\netcoreapp3.1\addressbook.dll
+G:\LPF\Day9 Assignment\AddressBook_System\addressbook\addressbook\obj\Debug\netcoreapp3.1\addressbook.pdb
+G:\LPF\Day9 Assignment\AddressBook_System\addressbook\addressbook\obj\Debug\netcoreapp3.1\addressbook.genruntimeconfig.cache
