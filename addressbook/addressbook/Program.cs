@@ -6,55 +6,57 @@ namespace addressbook
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Address Book System");
+            int choice;
             AddressBookBuilder addressBookBuilder = new AddressBookBuilder();
+            string FirstName, LastName, Address, City, State, Zip, PhoneNumber, Email, NameToSearch, NameToDelete;
+            Console.WriteLine("Welcome to Address Book System \n Enter your choice:");
             while (true)
             {
-                Console.WriteLine("1. Add Contact\n2. Display Contacts\n3. Edit Contact \n4.Delete Contact\n5.Add multiple contacts\n6.Exit");
-                int option = Convert.ToInt32(Console.ReadLine());
-                switch (option)
+                Console.WriteLine(" \n 1. Add Contact \n 2. Display Contacts \n 3. Edit Existing Contact \n 4. Delete a contact \n 5.Exit");
+                choice = Convert.ToInt32(Console.ReadLine());
+                switch (choice)
                 {
                     case 1:
-                        addressBookBuilder.addContact();
+                        Console.WriteLine("Enter First Name : ");
+                        FirstName = Console.ReadLine();
+                        Console.WriteLine("Enter Last Name : ");
+                        LastName = Console.ReadLine();
+                        Console.WriteLine("Enter Address: ");
+                        Address = Console.ReadLine();
+                        Console.WriteLine("Enter City : ");
+                        City = Console.ReadLine();
+                        Console.WriteLine("Enter State : ");
+                        State = Console.ReadLine();
+                        Console.WriteLine("Enter Zip code : ");
+                        Zip = Console.ReadLine();
+                        Console.WriteLine("Enter Phone Number : ");
+                        PhoneNumber = Console.ReadLine();
+                        Console.WriteLine("Enter Email : ");
+                        Email = Console.ReadLine();
+                        addressBookBuilder.AddContact(FirstName, LastName, Address, City, State, Zip, PhoneNumber, Email);
                         break;
                     case 2:
-                        addressBookBuilder.displayContacts();
+                        addressBookBuilder.DisplayContacts();
                         break;
                     case 3:
-                        Console.WriteLine("Enter the first name of the contact that need to be changed");
-                        String firstNameSearch = Console.ReadLine();
-                        addressBookBuilder.editContact(firstNameSearch);
+                        Console.WriteLine("Enter Contact First Name to edit details: ");
+                        NameToSearch = Console.ReadLine();
+                        addressBookBuilder.EditContact(NameToSearch);
                         break;
                     case 4:
-                        Console.WriteLine("Enter the first name of the contact that need to be deleted");
-                        String firstName = Console.ReadLine();
-                        addressBookBuilder.deleteContact(firstName);
+                        Console.WriteLine("Enter Contact First Name to delete contact: ");
+                        NameToDelete = Console.ReadLine();
+                        addressBookBuilder.DeleteContact(NameToDelete);
                         break;
                     case 5:
-                        addressBookBuilder.addContact();
-                        while (true)
-                        {
-                            Console.WriteLine("Want to add another contact(Y/N)");
-                            char ans = char.ToUpper(Console.ReadLine()[0]);
-                            if (ans.Equals('Y'))
-                            {
-                                addressBookBuilder.addContact();
-                            }
-                            else
-                            {
-                                break;
-                            }
-                        }
-                        break;
-                    case 6:
                         Environment.Exit(0);
                         break;
                     default:
-                        Console.WriteLine("Enter Valid Choice");
+                        Console.WriteLine("Enter Valid Choice:");
                         break;
                 }
-
             }
+
         }
     }
 }
