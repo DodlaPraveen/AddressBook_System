@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace addressbook
+namespace AddressBookSystemProject
 {
     class AddressBookBuilder : IContacts
     {

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace addressbook
+namespace AddressBookSystemProject
 {
-    interface IContacts
+    public interface IContacts
     {
         public void AddContact(string FirstName, string LastName, string Address, string City, string State, string Zip, string PhoneNumber, string Email);
         public void DisplayContacts();
